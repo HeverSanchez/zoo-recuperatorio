@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <%- include('./partials/head.ejs') %>
+        <link rel='stylesheet' href='/stylesheets/detailxid.css' />
+    </head>
+    <%- include('./partials/header.ejs') %>
+    <body>
+
+
+        <div class="contDetailxid">
+            <div>
+                <h2 class="tituloDetailxid">Detalle de <%=animal.nombre%></h2>
+                <form action="/users/delete/<%=animal.id%>" method="POST">
+                    <button type="submit">Borrar</button>
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+    <%- include('./partials/footer.ejs') %>
+</html>

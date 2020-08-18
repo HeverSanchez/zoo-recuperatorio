@@ -1,0 +1,36 @@
+body {
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(184, 255, 78);
+  }
+  .contCrearAnimalesCuidador{
+    position: relative;
+    border: 3px solid #046D0A;
+    border-radius: 8px;
+    margin: 50px;
+    
+    /* height: 500px; */
+    height: auto;
+  }
+  .crearAnimalesCuidador{
+    /* position: absolute; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #046D0A;
+    /* top: 83px; */
+    left: 573px;
+    /* width: 200px; */
+    /* height: 100px; */  
+  }
+  .href-crear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+  }
+  .href-crear a{
+    margin-left: 10px;
+  }

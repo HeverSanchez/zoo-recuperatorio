@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('./partials/head.ejs') %>
+        <link rel='stylesheet' href='/stylesheets/crearanimal.css' />
+    </head>
+    <body>
+        <%- include('./partials/header.ejs') %>
+
+
+
+        <div class="crear-animal-form">
+            <div>
+                <h2 class="creando-animales">Crear Animal:</h2>
+                <form action="/users/crearanimal" method="POST" enctype="multipart/form-data">
+                    <label for="">Nombre:</label>
+                    <input type="text" name="nombre">
+                    <br>
+                    <label for="">Altura:</label>
+                    <input type="text" name="altura">
+                    <br>
+                    <label for="">Peso:</label>
+                    <input type="text" name="peso">
+                    <br>
+                    <label for="">Alimento:</label>
+                    <input type="text" name="alimento">
+                    <br>
+                    <label for="">Foto:</label>
+                    <input type="file" name="foto">
+                    <br>
+                    <input type="submit" value="Crear">
+                </form>
+            </div>
+        </div>
+
+
+
+        <%- include('./partials/footer.ejs') %>
+    </body>
+</html>

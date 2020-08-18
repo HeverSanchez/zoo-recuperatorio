@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <%- include('./partials/head.ejs') %>
+        <link rel='stylesheet' href='/stylesheets/detail.css' />
+    </head>
+    <%- include('./partials/header.ejs') %>
+    <body>
+
+
+        <div class="contDetail">
+            <div>
+              <h2 class="tituloDetail">Detalles</h2>
+
+
+              <div class="detailcarac">
+                    <div>
+                    <h2>Animales</h2>
+                    <ul>
+                        <% for (let i = 0; i < animales.length; i++) { %>          
+                            <li><a href="/users/detail/<%=animales[i].id%>"><%=animales[i].nombre%></a></li>
+                        <% } %>
+                    </ul>
+                    <br>
+                   
+                
+                <div>
+
+                </div>
+
+
+              </div>
+                
+            </div>
+        </div>
+
+
+    </body>
+    <%- include('./partials/footer.ejs') %>
+</html>

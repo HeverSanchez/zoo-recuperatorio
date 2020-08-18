@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+.headerTitulo{
+    color: #046D0A;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 31px;
+    left: 78px;
+    font-size: 70px;
+    z-index: -1;
+}
+.header-nav{
+    background: #07C910 ;
+    opacity: 0.9;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    /* position: fixed; */
+}
+.headerContainer{
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logoZoo{
+    width: 125px;
+    margin-bottom: -67px;
+    flex-wrap: wrap;
+}
+nav{
+    line-height: 70px;
+    float: right;
+}
+nav a{
+    color: #046D0A;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px 10px;
+    line-height: normal;
+    font-size: 16px;
+}
+nav a:hover{
+    /* color: purple; */
+    border-bottom: 5px solid #000000;
+}
